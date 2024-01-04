@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\Ishaa\OneDrive\Documents\Prodigy task-2\stopwatch logo.jpg" alt="Image" class="left-upper-image">
+        <div class="background"></div>
+        <div class="stopwatch">
+            <div class="time" id="display">00:00:00</div>
+            <button onclick="startStopwatch()">Start</button>
+            <button onclick="pauseStopwatch()">Pause</button>
+            <button onclick="resetStopwatch()">Reset</button>
+            <button onclick="lap()">Lap</button>
+            <ul id="lapTimes"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
